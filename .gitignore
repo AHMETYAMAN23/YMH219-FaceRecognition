@@ -1,0 +1,50 @@
+## Visual Studio / .NET derleme çıktıları ve kullanıcıya özel dosyalar
+
+# Derleme klasörleri
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]64/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+
+# Test sonuçları
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+
+# Geçici dosyalar
+*.tmp
+*.cache
+*.log
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
